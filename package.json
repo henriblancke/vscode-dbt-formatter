@@ -1,10 +1,17 @@
 {
 	"name": "vscode-dbt-formatter",
-	"displayName": "vscode-dbt-formatter",
+	"displayName": "dbt formatter",
 	"description": "Formatter for jinja-flavored sql used with dbt.",
-	"version": "0.0.1",
+	"version": "1.0.0",
+	"publisher": "henriblancke",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/henriblancke/vscode-dbt-formatter"
+	},
+	"icon": "dbt-logo.png",
 	"keywords": [
 		"dbt",
+		"DBT",
 		"SQL",
 		"sql",
 		"jinja-sql",
