@@ -39,12 +39,12 @@ const getConfig = (options: vscode.FormattingOptions): FormatterOptions => ({
   upper: vscode.workspace.getConfiguration("dbt-formatter").get("upper", true),
   allowCamelcase: vscode.workspace
     .getConfiguration("dbt-formatter")
-    .get("camelcase", true),
+    .get("camelCase", true),
   sql: vscode.workspace
     .getConfiguration("dbt-formatter")
     .get("dialect", "default"),
   indent: options.tabSize,
-  newline: newLineConfig(options)
+  newline: newLineConfig(options),
 });
 
 export function activate(context: vscode.ExtensionContext) {

@@ -58,10 +58,10 @@
 					"default": true,
 					"description": "Formats sql reserved words to be uppercase when set to true"
 				},
-				"dbt-formatter.camelcase": {
+				"dbt-formatter.camelCase": {
 					"type": "boolean",
 					"default": true,
-					"description": "Allows column names to be camelcased when lowerWords is set to true"
+					"description": "Allows column names to be camel cased when lowerWords is set to true"
 				},
 				"dbt-formatter.lowerWords": {
 					"type": "boolean",
