@@ -103,5 +103,8 @@
 	},
 	"dependencies": {
 		"dbt-formatter": "^1.2.0"
-	}
+	},
+	"extensionDependencies": [
+		"bastienboutonnet.vscode-dbt"
+	]
 }
