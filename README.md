@@ -2,7 +2,7 @@
 
 ## Features
 
-Format SQL and Jinja flavored SQL with ease. This extension uses [dbt-formatter](https://github.com/henriblancke/dbt-formatter) to format your dbt models and macros. We highly recommend installing [vscode-dbt](https://github.com/fishtown-analytics/vscode-dbt) first before using this extension.
+Format SQL and Jinja flavored SQL with ease. This extension uses [dbt-formatter](https://github.com/henriblancke/dbt-formatter) to format your dbt models and macros. This extension depends on [vscode-dbt](https://github.com/bastienboutonnet/vscode-dbt).
 
 ## Extension Settings
 
